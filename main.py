@@ -243,6 +243,14 @@ class Main:
                 if active_count() <= self.threads:
                     username = genName(self.gen_type, self.username_case, self.username_include_digits,self.username_prefix, self.username_length, self.username_suffix, self.xeger)
                     Thread(target=self.worker, args=(username,)).start()
+        else:
+            usernames = readFile('[Data]/usernames.txt', 'r')
+            for username in usernames:
+                Run = True
+                while Run:
+                    if active_count() <= self.threads:
+                        Thread(target=self.worker, args=(username,)).start()
+                        Run = False
 
 if __name__ == '__main__':
     main = Main()
