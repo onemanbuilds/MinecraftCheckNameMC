@@ -38,7 +38,7 @@
  - username_include_digits (0 - No digits in the usernames | 1 - Use digits in the usernames).<br/>
  - username_length (The length of the usernames).<br/>
  - username_prefix (Word before the usernames for example if the prefix is apple then the username will look like this applegeneratedusername).<br/>
- - username_suffix Word after the usernames for example if the suffix is apple then the username will look like this generatedusernameapple).<br/>
+ - username_suffix (Word after the usernames for example if the suffix is apple then the username will look like this generatedusernameapple).<br/>
 
 # Suggestion
 ![](https://i.ibb.co/g6tWk8p/suggestion.png)
