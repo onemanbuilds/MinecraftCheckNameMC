@@ -1,0 +1,14 @@
+{
+    "use_proxy":1,
+    "proxy_type":2,
+    "threads":300,
+    "webhook_enable":0,
+    "webhook_url":"",
+    "gen_type":1,
+    "check_method":1,
+    "username_case":1,
+    "username_include_digits":0,
+    "username_length":3,
+    "username_prefix":"",
+    "username_suffix":""
+}
